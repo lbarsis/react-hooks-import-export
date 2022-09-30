@@ -4,8 +4,12 @@ function wildlife() {
   console.log("Elk, Bighorn Sheep, Moose");
 }
 
-function elevation() {
-  console.log("9583 ft");
+function Elevation() {
+  return (
+    <h3>Elevation: 9583 ft</h3>
+  )
 }
 
 export { trees, wildlife };
+
+export default Elevation

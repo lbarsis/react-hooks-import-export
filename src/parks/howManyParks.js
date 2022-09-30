@@ -1,5 +1,7 @@
-function howManyParks() {
-  console.log("42 parks!");
+function HowManyParks() {
+  return (
+    <h2>42 Parks</h2>
+  )
 }
 
-export default howManyParks;
+export default HowManyParks;
